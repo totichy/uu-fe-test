@@ -1,0 +1,68 @@
+{
+  "product": "uu_frontendOneg01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "docUri": "",
+  "flsUri": "",
+  "slsUri": "",
+  "imageUri": "",
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null,
+      "resourcePoolUri": "----- VALUE REQUIRED -----"
+    }
+  },
+  "uu_frontendOneg01-uu5lib": {
+    "namespace": "UuFrontendOneUu5lib",
+    "sourceUri": "https://cdn.plus4u.net/uu-frontendOneg01/%s/uu_frontendOneg01-uu5lib.min.js",
+    "componentList": [
+      {
+        "code": "UuFrontendOneUu5lib.Booklist",
+        "name": "Booklist",
+        "tagList": [
+          "UuFrontendOneUu5lib",
+          "Booklist"
+        ],
+        "docCode": "UuFrontendOneUu5libBooklist",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuFrontendOneUu5lib.Booklist />"
+      },
+      {
+        "code": "UuFrontendOneUu5lib.Bookdetail",
+        "name": "Bookdetail",
+        "tagList": [
+          "UuFrontendOneUu5lib",
+          "Bookdetail"
+        ],
+        "docCode": "UuFrontendOneUu5libBookdetail",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuFrontendOneUu5lib.Bookdetail />"
+      },
+      {
+        "code": "UuFrontendOneUu5lib.BookUpdateForm",
+        "name": "BookUpdateForm",
+        "tagList": [
+          "UuFrontendOneUu5lib",
+          "BookUpdateForm"
+        ],
+        "docCode": "UuFrontendOneUu5libBookUpdateForm",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuFrontendOneUu5lib.BookUpdateForm />"
+      }
+    ]
+  }
+}
